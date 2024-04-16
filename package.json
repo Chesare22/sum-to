@@ -1,0 +1,19 @@
+{
+  "name": "@binary-tree-syrup/sum-to",
+  "version": "1.0.0",
+  "description": "CLI app to list all the possible ways of summing to N. Helpful when solving killer sudokus",
+  "main": "sum-scores.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chesare22/sum-to.git"
+  },
+  "author": "César Alejandro González Ortega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chesare22/sum-to/issues"
+  },
+  "homepage": "https://github.com/Chesare22/sum-to#readme"
+}
