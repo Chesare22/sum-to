@@ -52,6 +52,10 @@ const difference = (a, b = []) =>
 
 
 program
+  .name('sum-to')
+  .description('CLI app to list all the possible ways of summing to N. Helpful when solving killer sudokus.')
+  .usage('<sum> [options]')
+  .showHelpAfterError()
   .argument('<sum>', 'The number to sum to. It must be a positive integer.', parsePositiveInt)
   .requiredOption('-u, --using <amount>', 'The amount of summands to use. It must be a positive integer.', parsePositiveInt)
   .option('-f, --from <summand...>', 'The list of valid summands. The default value is 1-9.', parseSummand)
