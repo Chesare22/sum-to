@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Chesare22/sum-to/issues"
   },
-  "homepage": "https://github.com/Chesare22/sum-to#readme"
+  "homepage": "https://github.com/Chesare22/sum-to#readme",
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
 }
