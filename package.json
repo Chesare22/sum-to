@@ -2,6 +2,12 @@
   "name": "@binary-tree-syrup/sum-to",
   "version": "1.0.0",
   "description": "CLI app to list all the possible ways of summing to N. Helpful when solving killer sudokus",
+  "keywords": [
+    "killer sudoku",
+    "commbinations",
+    "cli app",
+    "utility"
+  ],
   "main": "./cli.js",
   "bin": {
     "sum-to": "./cli.js"
