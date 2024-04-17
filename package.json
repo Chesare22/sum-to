@@ -1,6 +1,6 @@
 {
   "name": "@binary-tree-syrup/sum-to",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI app to list all the possible ways of summing to N. Helpful when solving killer sudokus",
   "keywords": [
     "killer sudoku",
