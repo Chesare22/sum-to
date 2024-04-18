@@ -33,17 +33,17 @@ Combinations of 2 numbers from 1,2,3,4,5,6,7,8,9 that sum to 6:
 [ [ 1, 5 ], [ 2, 4 ] ]
 ```
 ```
-$ sum-to 8 --using 3 from 1-4
-Combinations of 3 numbers from 1,2,3,4,5,6,7,8,9 that sum to 8:
+$ sum-to 8 --using 3 --from 1-5
+Combinations of 3 numbers from 1,2,3,4,5 that sum to 8:
 [ [ 1, 2, 5 ], [ 1, 3, 4 ] ]
 ```
 ```
-$ sum-to 9 --using 2 --excluding 5
-Combinations of 2 numbers from 1,2,3,4,6,7,8,9 that sum to 9:
-[ [ 1, 8 ], [ 2, 7 ], [ 3, 6 ] ]
+sum-to 18 --using 4 --excluding 3 9
+Combinations of 4 numbers from 1,2,4,5,6,7,8 that sum to 18:
+[ [ 1, 2, 7, 8 ], [ 1, 4, 5, 8 ], [ 1, 4, 6, 7 ], [ 2, 4, 5, 7 ] ]
 ```
 ```
-$ sum-to 30 --using 5             
+$ sum-to 30 --using 5
 Combinations of 5 numbers from 1,2,3,4,5,6,7,8,9 that sum to 30:
 [
   [ 1, 5, 7, 8, 9 ],
@@ -55,7 +55,12 @@ Combinations of 5 numbers from 1,2,3,4,5,6,7,8,9 that sum to 30:
 ]
 ```
 ```
-$ sum-to 18 -u 4 -f 1-7 -e 3 6
-Combinations of 4 numbers from 1,2,4,5,7 that sum to 18:
-[ [ 2, 4, 5, 7 ] ]
+$ sum-to 30 -u 5 -e 2
+Combinations of 5 numbers from 1,3,4,5,6,7,8,9 that sum to 30:
+[
+  [ 1, 5, 7, 8, 9 ],
+  [ 3, 4, 6, 8, 9 ],
+  [ 3, 5, 6, 7, 9 ],
+  [ 4, 5, 6, 7, 8 ]
+]
 ```
